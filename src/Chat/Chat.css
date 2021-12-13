@@ -1,0 +1,58 @@
+.chat {
+    margin-top: 5%;
+    margin-left: 31%;
+    width: 33.3%;
+    min-height: 400px;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    border-radius: 10px;
+}
+.chat-info {
+    width: 98%;
+    margin: 1%;
+    min-height: 20px;
+}
+.chat-messages {
+    width: 98%;
+    height: 340px;
+    margin: 1%;
+    overflow-y: scroll;
+}
+.chat-form {
+    width: 98%;
+    height: 40px;
+    margin: 1%;
+}
+
+@media screen and (max-width:900px) {
+    .chat {
+        margin-left: 21%;
+        width: 50%;
+        min-height: 500px;
+    }
+    .chat-messages {
+        height: 440px;
+    }
+}
+@media screen and (max-width:700px) {
+    .chat {
+        margin-left: 21%;
+        width: 60%;
+        min-height: 500px;
+    }
+}
+@media screen and (max-width:700px) {
+    .chat {
+        margin-left: 5%;
+        width: 90%;
+        min-height: 500px;
+    }
+}
+::-webkit-scrollbar { width: 3px; height: 3px;}
+::-webkit-scrollbar-button {  background-color: #666; }
+::-webkit-scrollbar-track {  background-color: #999;}
+::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #999;}
+::-webkit-resizer { background-color: #666;}

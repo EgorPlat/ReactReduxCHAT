@@ -1,0 +1,18 @@
+.message {
+    animation: addingMessage 1s;
+}
+.message-each {
+    margin: 1%
+}
+.message-each-children {
+    word-wrap: break-word;
+}
+
+@keyframes addingMessage {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

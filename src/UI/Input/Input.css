@@ -1,0 +1,8 @@
+input {
+    width: 98%;
+    margin: 1%;
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    outline: none;
+}
